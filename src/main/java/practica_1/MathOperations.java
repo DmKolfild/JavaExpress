@@ -1,3 +1,5 @@
+package practica_1;
+
 public class MathOperations {
     public static void main(String[] args) {
         System.out.println("Сумма двух чисел: " + add(3, 4));
