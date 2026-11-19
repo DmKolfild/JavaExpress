@@ -1,8 +1,8 @@
 package practica_2;
 
 public class StudentGroup {
-    String groupName;
-    int studentCount;
+    private String groupName;
+    private int studentCount;
 
     StudentGroup(String groupName, int studentCount) {
         this.groupName = groupName;

@@ -1,8 +1,8 @@
 package practica_2;
 
 public class Point {
-    int x;
-    int y;
+    private int x;
+    private int y;
 
     Point(int x, int y) {
         this.x = x;
@@ -22,6 +22,6 @@ public class Point {
     }
 
     public void print() {
-        System.out.println("Координта x: " + x + "\nКоординта y: " + y);
+        System.out.println("Координата x: " + x + "\nКоордината y: " + y);
     }
 }

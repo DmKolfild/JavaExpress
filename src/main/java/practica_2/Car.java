@@ -1,8 +1,8 @@
 package practica_2;
 
 public class Car {
-    String brand;
-    int year;
+    private String brand;
+    private int year;
 
     Car(String brand, int year) {
         this.brand = brand;
@@ -26,6 +26,6 @@ public class Car {
     }
 
     public void print() {
-        System.out.println("Марка: " + this.brand + "\nГод выпуск: " + this.year);
+        System.out.println("Марка: " + this.brand + "\nГод выпуска: " + this.year);
     }
 }

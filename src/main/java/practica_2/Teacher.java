@@ -1,8 +1,8 @@
 package practica_2;
 
 public class Teacher {
-    String name;
-    String subject;
+    private String name;
+    private String subject;
 
     Teacher(String name, String subject) {
         this.name = name;
@@ -26,6 +26,6 @@ public class Teacher {
     }
 
     public void printInfo() {
-        System.out.println("Имя учитеял: " + this.name + "\nПредмет: " + this.subject);
+        System.out.println("Имя учителя: " + this.name + "\nПредмет: " + this.subject);
     }
 }

@@ -8,19 +8,19 @@ public class Main {
 
         Rectangle rectangle = new Rectangle(3, 5);
         rectangle.setWidth(10);
-        System.out.println("Площадь прямоугоьника: " + rectangle.calculateArea());
+        System.out.println("Площадь прямоугольника: " + rectangle.calculateArea());
 
         Book book = new Book("ЙЦУКЕ", "QWERTY");
-        book.author = "ASDF";
+        book.setAuthor("ASDF");
         book.printInfo();
 
         BankAccount bankAccount = new BankAccount("Фыва", 200_000);
         bankAccount.deposit(100_000);
         bankAccount.withdraw(40_000);
-        System.out.println("Баланс счета: " + bankAccount.balance);
+        System.out.println("Баланс счета: " + bankAccount.getBalance());
 
         Point point = new Point(10, 12);
-        point.x = 34;
+        point.setX(34);
         point.print();
 
         StudentGroup studentGroup = new StudentGroup("ASDFG", 123);

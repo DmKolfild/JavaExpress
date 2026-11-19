@@ -1,8 +1,8 @@
 package practica_2;
 
 public class Product {
-    String name;
-    double price;
+    private String name;
+    private double price;
 
     Product(String name, double price) {
         this.name = name;
